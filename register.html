@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+                <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+
+		<!-- Website CSS style -->
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+		<!-- Website Font style -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+                
+		<link rel="stylesheet" type="text/css" href="css/register.css">
+		<title>StarClothes - Cadastro</title>
+	</head>
+	<body>
+            <div class="container">
+		<div style="padding: 25px 0px; ">
+			<div class="panel-heading" >
+                            <div class="panel-title text-center">
+                                <a href="index.php" style="text-decoration:none;"><h1 class="title">Star<span>Clothes</span></h1></a>
+	               		<hr/>
+                            </div>
+	            
+                            <div class="main-login main-center">
+				<form class="form-horizontal" method="post" action="register.php">
+                                    <input type="hidden" name="acao" id="acao">	
+                                    <div class="form-group">
+					<label for="name" class="cols-sm-2 control-label">Seu Nome</label>
+					<div class="cols-sm-10">
+                                            <div class="input-group">
+						<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+						<input type="text" class="form-control" name="nome" id="nome"  placeholder="Digite seu Nome" required="required"/>
+                                            </div>
+					</div>
+                                    </div>
+
+                                    <div class="form-group">
+					<label for="email" class="cols-sm-2 control-label">Seu Email</label>
+					<div class="cols-sm-10">
+                                            <div class="input-group">
+						<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+						<input type="email" class="form-control" name="email" id="email"  placeholder="Digite seu Email" required="required"/>
+                                            </div>
+					</div>
+                                    </div>
+                                        
+                                    <div class="form-group">
+                                        <label for="confirm" class="cols-sm-2 control-label">Seu Cpf</label>
+                                        <div class="cols-sm-10">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                                <input type="number" class="form-control" name="cpf" id="cpf"  placeholder="Digite seu Cpf" required="required" onkeyup="if(this.value.length>11){this.value=this.value.substring(0,11);alert('tamanho maximo encontrado ')}"/>
+                                            </div>
+                                        </div>
+                                    </div>
+						
+                                    <div class="form-group">
+					<label for="password" class="cols-sm-2 control-label">Sua Senha</label>
+					<div class="cols-sm-10">
+                                            <div class="input-group">
+						<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+						<input type="password" class="form-control" name="senha" id="senha"  placeholder="Digite sua Senha" required="required"/>
+                                            </div>
+					</div>
+                                    </div>
+						
+                                    <div class="form-group ">
+					<button type="submit" class="btn btn-primary btn-block btn-large">Enviar</button>
+                                    </div>
+                                    <div class="login-register">
+				        <a href="login.html" style="text-decoration: none;">Voltar</a>
+				    </div>
+				</form>
+                            </div>
+			</div>
+		</div>
+            </div>    
+            <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>    
+	</body>
+</html>
