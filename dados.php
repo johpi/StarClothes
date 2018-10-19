@@ -96,6 +96,22 @@ and open the template in the editor.
                     </div>
                     <div id="dados" class="w70 fleft">
                         <h5>Perfil</h5>
+                        <?php
+                        $result = usuarios();
+                        while ($registro = mysqli_fetch_array($result)) {
+                            $nome = $registro['nome'];
+                            $email = $registro['email'];
+                            $cpf= $registro['cpf']; 
+                        ?>
+                        <form action="alterar.php">
+                            Nome: <input type="text" name="nome" value="<?php echo $nome?>"/>
+                            E-mail: <input type="hiden" name="email" value="<?php echo $email?>"/><br>
+                            CPF: <input type="number" name="cpf" value="<?php echo $cpf?>"/>
+                            Data de Nascimento: <input type="date" name="data" value=""/>
+                            Telefone: <input type="number" name="tell" value="?>"/>
+                            <input type="submit" value="SALVAR"/>  
+                        </form>
+                        <?php } ?>  
                     </div>
                 </div>
                 <div class="clearb"></div>  

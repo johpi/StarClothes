@@ -14,10 +14,10 @@ function autenticar($email, $senha) {
     return mysqli_num_rows($result) ;
 }
 
-/*
+
 function usuarios() {
     
-    $sql = "select * from exame where cod_paciente in (select cod_paciente from paciente where login = '". $_SESSION["usuario"] ."')";
+    $sql = "select * from cliente where email = '". $_SESSION["usuario"] ."'";
        
     $conn = conectar();
     
@@ -30,7 +30,7 @@ function usuarios() {
 
 
 
-*/
+
 
 
 
