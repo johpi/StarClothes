@@ -27,6 +27,31 @@ function usuarios() {
     return $result;
 }
 
+function medidas($id) {
+    
+    
+    $sql = "select * from medidas where cod_cliente = '$id'";
+       
+    $conn = conectar();
+    
+    $result = mysqli_query($conn, $sql) or die(mysqli_error($conn));
+    desconectar($conn);
+
+    return $result;
+}
+function endereco($id) {
+    
+    
+    $sql = "select * from endereco where cod_cliente = '$id'";
+       
+    $conn = conectar();
+    
+    $result = mysqli_query($conn, $sql) or die(mysqli_error($conn));
+    desconectar($conn);
+
+    return $result;
+}
+
 
 
 

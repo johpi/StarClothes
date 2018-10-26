@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Biryani:700'); /* font-family: 'Biryani', sans-serif; */
+
+/*estrutura HTML*/
+
+html, body{
+	font-family: 'Rubik', sans-serif;
+	}
+h1, h2, h3, h4, h5, h6{
+	margin:10px 0; 
+	font-family: 'Biryani', sans-serif; 
+
+	}
+a{
+    text-decoration: none;
+    text-decoration:none; 
+    padding: 5px 0;
+    color:#7F7F7F;
+}
+.span{
+    color: #DFAF83;
+}
+
+	
+
+/*diagramação e regras úteis*/
+
+
+.mcell{margin-top:10px;}
+.cell{margin-left:15px;}
+.cellm{margin-top:20px;}
+
+.color-1{ color:#ffffff; }
+.backcolor-1{ background:#EF1115; } 
+.backcolor-2{ background:#ff8600; }
+.tcenter{ text-align:center;}
+.tright{text-align:right;}
+.tleft{text-align:left;}
+.tjustify{text-align:justify;}
+.hover:hover{border:1px solid #727272;box-shadow:5px 5px 10px 5px rgba(0,0,0,0.5)}
+
+.fleft{ float:left;}
+.fright{float:right;}
+.clearb{ clear:both;}
+ul, ol{
+    padding: 0;
+    margin: 0!important; 
+}
+
+
+/*elementos de layout*/
+/*logotipo*/
+
+h1#logotipo{
+	border: 0px solid red;
+	margin:0 5px;
+	}
+
+h1#logotipo a{
+	background:url(../imagens/logo.png) center center no-repeat;
+	background-size:100% 100%; /*redimensionar*/
+	border: 0px solid #000;
+	display:block;
+	width:160px;
+	height:50px;
+		
+	}
+
+h1#logotipo a span{
+	border: 1px solid blue;
+	display:none;}
+	
+/*menu*/
+		ul.menu{
+			list-style:none;
+			 /*border:1px solid blue;*/
+		 	 padding:10px 0; 
+		 	 width:30%; }
+		                                           
+		ul.menu li{
+			/*border:1px solid yellow;*/
+		 	margin:0px;
+		 	display:inline-block; }
+
+	 	ul.menu li a{
+			color:#7F7F7F;
+			 text-decoration:none; 
+			 border:none; 
+			 background:none; 
+			 display:block; 
+			 padding:5px; } 
+			 
+		ul.menu li a:hover{
+			background:none; 
+			color:#000; 
+			text-decoration:none;
+			transition:color 0.6s linear; }
+
+/*filtro drop*/
+
+/*layout*/
+/*cabeçalho*/
+
+#tudo header #menu nav #b1{
+    display:inline-block;
+	padding:5px 21px;
+	text-decoration:none;
+	border-radius:5px;
+	transition:background 0.6s linear;
+        color:#ff851b; 
+        border:2px solid #ff851b;
+        cursor: pointer;
+        margin-right:7px;
+}
+#tudo header #menu nav #b1:hover{
+    background:#ff851b;
+    color:#fff; 
+}
+#tudo header #menu nav #b2{
+    display:inline-block;
+	padding:5px 21px;
+	text-decoration:none;
+	border-radius:5px;
+	transition:background 0.6s linear;
+        color:#2ecc40; 
+        border:2px solid #2ecc40;
+        cursor: pointer;
+        
+}
+#tudo header #menu nav #b2:hover{
+    background:#2ecc40;
+    color:#fff; 
+}
+
+/*main*/
+
+
+
+/*responsividade*/
+@media screen and (max-width:1024px){
+	#content-page main #section2 article{
+	padding:35px;}
+	
+	}
+	
+@media screen and (max-width:600px){
+	#content-page main #section2 article{
+	padding:0px;}
+	.cell{margin-left:5px;}
+	}
+@media screen and (max-width:480px){
+	.inverse-mobile-right{ float:right;}
+	.inverse-mobile-left{ float:left;}
+	#content-page main section#section3 .row article p{
+	margin-left:0px;}
+	#content-page header{
+	background:url(../images/pc1.jpg) center bottom no-repeat;
+	background-size:100% 100%;}
+	#content-page main #section2 article{
+	padding:35px;}
+	.cell{margin-left:0px;}
+	.cellm{margin-top:0px;}
+	.mcell{margin-top:20px;}
+
+	
+}
+
+

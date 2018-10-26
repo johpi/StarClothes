@@ -16,8 +16,8 @@ $usuario = isset($_SESSION["usuario"]) ? $_SESSION["usuario"] : null;
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <title>StarClothes - loja</title>
-        <link rel="stylesheet" type="text/css" href="css/base-dados.css">
-        <link rel="stylesheet" type="text/css" href="css/tema-dados.css">
+        <link rel="stylesheet" type="text/css" href="css/base-endereco.css">
+        <link rel="stylesheet" type="text/css" href="css/tema-endereco.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <script type="text/javascript" src="js/modernizr-custom.js"></script> 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -67,7 +67,7 @@ $usuario = isset($_SESSION["usuario"]) ? $_SESSION["usuario"] : null;
                     <hr style="border:none;width: 9.75rem;height:3px;background-color:#333;margin-top:1px;">
                 </div>
                 <div style="padding: 20px 0;">
-                    <div class="fleft w16">
+                    <div class="fleft w16" >
                         <div style="border: 2px solid rgba(34,36,38,.30); border-radius: 2%;">
                             <div style="border-bottom: 2px solid rgba(34,36,38,.30);margin: 0;">
                                 <img src="imagens/female.png" height="185" width="100%" style="display: block;border-radius: inherit;"/>
@@ -86,45 +86,58 @@ $usuario = isset($_SESSION["usuario"]) ? $_SESSION["usuario"] : null;
                         <div style="">
                             <nav>
                                 <ul class="drop1">
-                                    <li style="background:rgba(0,0,0,.30)!important; "><a href="">Meus Dados<i class="fas fa-user "></i></a></li>
+                                    <li><a href="dados.php">Meus Dados<i class="fas fa-user "></i></a></li>
                                     <li><a href="medidas.php">Minhas Medidas<i class="fas fa-child "></i></a></li>
                                     <li><a href="">Carrinho<i class="fas fa-shopping-cart"></i></a></li>
-                                    <li><a href="endereco.php">Endereço<i class="fas fa-truck "></i></a></li>
+                                    <li style="background:rgba(0,0,0,.30)!important; "><a href="">Endereço<i class="fas fa-truck "></i></a></li>
                                 </ul>
                             </nav>
                             
                         </div>
 
                     </div>
-  
-                    <div id="dados" class="w70 fleft" style="font-size: 14px;">
-                        <h6>Perfil</h6>
+                    <div id="endereco" class="w70 fleft" style="font-size: 14px;">
+                        <h6>Endereço</h6>
                         <?php
                         $result = usuarios();
                         while ($registro = mysqli_fetch_array($result)) {
-                            $nome = $registro['nome'];
-                            $email = $registro['email'];
-                            $cpf= $registro['cpf']; 
-                            $nasc= $registro['nasc']; 
-                            $tell= $registro['tell']; 
+                           $id=$registro['cod_cliente'] 
                         ?>
-                        <form method="post" action="alterardados.php" style="padding: 0 10px;">
+                        <?php
+                        $result = endereco($id);
+                        while ($registro = mysqli_fetch_array($result)) {
+                            $nome_destinatario = $registro['nome_destinatario'];
+                            $rua = $registro['rua'];
+                            $cep= $registro['cep']; 
+                            $numero= $registro['numero']; 
+                            $complemento= $registro['complemento']; 
+                            $bairro = $registro['bairro']; 
+                            $estado = $registro['estado']; 
+                            $cidade= $registro['cidade']; 
+                        ?>
+                        <form method="post" action="alterarendereco.php" style="padding: 0 10px;">
                             <div>
-                                <div class="w50 fleft "><b>Nome</b> <br><input class="input w75 ww" type="text" name="nome" value="<?php echo $nome?>"/></div>
-                                <div class="w50 fright"><b>E-mail</b> <br><input class="input w75 ww" style=" background: #DCDCDC;" type="hiden" readonly name="email" value="<?php echo $email?>"/></div><br>
+                                <div class="w50 fleft "><b>Nome do destinatário</b> <br><input class="input w75 ww" type="text" name="nome_destinatario" value="<?php echo $nome_destinatario?>"/></div>
+                                <div class="w50 fright"><b>Endereço</b> <br><input class="input w75 ww" type="text" name="rua" value="<?php echo $rua?>"/></div><br>
                             </div>
                             <div style="margin-top: 6%;">
-                                <div class="fleft w30"><b>CPF</b> <br><input class="input w65 ww" type="number" name="cpf" value="<?php echo $cpf?>" onkeyup="if(this.value.length>11){this.value=this.value.substring(0,11);alert('tamanho maximo encontrado ');}"/></div>
-                                <div class="fleft w30 minput"><b>Data de Nascimento</b> <br><input class="input w65 ww" type="date" name="nasc" value="<?php echo $nasc?>"/><br></div>
-                                <div class="fleft w30"><b>Telefone</b> <br><input class="input w60 ww" type="number" name="tell" value="<?php echo $tell?>" onkeyup="if(this.value.length>11){this.value=this.value.substring(0,11);alert('tamanho maximo encontrado ');}"/></div><br><br><br><br>
+                                <div class="fleft w30"><b>CEP</b> <br><input class="input w65 ww" type="number" name="cep" value="<?php echo $cep?>" onkeyup="if(this.value.length>11){this.value=this.value.substring(0,11);alert('tamanho maximo encontrado ');}"/></div>
+                                <div class="fleft w30 minput"><b>Número</b> <br><input class="input w65 ww" type="number" name="numero" value="<?php echo $numero?>"/><br></div>
+                                <div class="fleft w30"><b>Complemento</b> <br><input class="input w60 ww" type="text" name="complemento" value="<?php echo $complemento?>" onkeyup="if(this.value.length>11){this.value=this.value.substring(0,11);alert('tamanho maximo encontrado ');}"/></div><br><br><br><br>                                
+                            </div>
+                            <div>
+                                <div class="fleft w30"><b>Bairro</b> <br><input class="input w65 ww" type="text" name="bairro" value="<?php echo $bairro?>" onkeyup="if(this.value.length>11){this.value=this.value.substring(0,11);alert('tamanho maximo encontrado ');}"/></div>
+                                <div class="fleft w30 minput"><b>Estado</b> <br><input class="input w65 ww" type="text" name="estado" value="<?php echo $estado?>"/><br></div>
+                                <div class="fleft w30"><b>Cidade</b> <br><input class="input w60 ww" type="text" name="cidade" value="<?php echo $cidade?>" onkeyup="if(this.value.length>11){this.value=this.value.substring(0,11);alert('tamanho maximo encontrado ');}"/></div><br><br><br><br>                                
+                                <input style="display:none;" name="id" value="<?php echo $id?>"/>
                                 <div class="fleft"><br><input class="b1" type="submit" value="SALVAR"/></div> 
                             </div>
                             <div class="clearb"></div>
                         </form>
-                        <?php } ?>  
+                        <?php }?> 
+                        <?php }?> 
                     </div>
                 </div>
-                  
                 <div class="clearb"></div>  
             </main>
             

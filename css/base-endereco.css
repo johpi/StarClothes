@@ -63,6 +63,8 @@ h6{ font-size:18px;}
 
 
 
+
+
 /*elementos de layout*/
 /*logotipo*/
 
@@ -151,13 +153,14 @@ width:100%;
 
 }
 /*responsividade*/
-#medidaa{
+#endereco{
     border:2px solid rgba(34,36,38,.30); 
     border-radius: 10px; 
-    height:530px;
-    margin: 0 3%;
+    margin: 0 3%; 
+    height:320px;
     padding: 5px;
 }
+
 .input{padding:10px ; border-radius:3px; border:1px solid rgba(34,36,38,.15); margin:0px;  }
 
 
@@ -178,7 +181,7 @@ width:100%;
     color:#fff; 
 }
 .minput{
-    margin: 0 5%;
+    margin: 0 4.8%;
 }
 
 @media screen and (max-width:1024px){
@@ -219,10 +222,11 @@ width:100%;
         .w30{width:100%;}
         .w70{width:98.5%;}
         .ww{width: 93%;}
-        #medidaa{margin: 20px 0; padding:0px; height: 80%;}
+        #endereco{margin: 20px 0; padding:0px; height: 570px;}
         .rodapem{position: relative !important;
         left: 0 !important;
-        bottom: 0 !important;}
+        bottom: 0 !important;
+        }
         .minput{margin: 0;}
 }
 
