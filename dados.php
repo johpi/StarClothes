@@ -15,7 +15,7 @@ $usuario = isset($_SESSION["usuario"]) ? $_SESSION["usuario"] : null;
         <meta name="keywords" content=""> 
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <title>StarClothes - loja</title>
+        <title>StarClothes - Dados</title>
         <link rel="stylesheet" type="text/css" href="css/base-dados.css">
         <link rel="stylesheet" type="text/css" href="css/tema-dados.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
