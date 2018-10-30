@@ -1,0 +1,239 @@
+@import url('http://yui.yahooapis.com/3.5.0/build/cssreset/cssreset-min.css');
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
+
+/*estrutura HTML*/
+
+html, body{
+	font-family: 'Rubik', sans-serif;
+	}
+
+h1{ font-size:32px;}
+h2{ font-size:20px;}
+h3{ font-size:28px;}
+h4{ font-size:26px;}
+h5{ font-size:24px;}
+h6{ font-size:18px;}
+	
+
+
+
+/*diagramação e regras úteis*/
+
+.container{
+	margin:0 auto;
+	width:1200px;}
+
+.mtop{margin-top:60px;}
+.mleft{margin-left:20px;}
+
+
+.btn{ display:inline-block;
+	padding:5px 10px;
+	background:#fff; 
+	color:#000;
+	text-decoration:none;
+	border:1px solid #000;}
+.btn:hover{
+	background:#000;
+	color:#ffffff;
+	border:1px solid;}
+.fleft{ float:left;}
+.fright{float:right;}
+.clearb{ clear:both;}
+
+.w16{width:16%;}
+.w19{width:19%;}
+.w23{width:23%;}
+.w20{width:20%;}
+.w80{width:80%;}
+.w40{width:40%;}
+.w60{width:60%;}
+.w25{width:25%;}
+.w32{width:32%;}
+.w33{width:33%;}
+.w35{width:35%;}
+.w50{width:50%;}
+.w30{width:30%;}
+.w70{width:70%;}
+
+.w75{width: 75%;}
+.w65{width: 65%;}
+
+
+
+
+
+
+
+/*elementos de layout*/
+/*logotipo*/
+
+
+
+			 
+/*menu drop*/
+.drop{
+    list-style: none;
+    cursor: pointer;
+    
+}
+.drop li{
+position:relative; 
+float:left; 
+border: 1px solid;
+border-color: #96c8da;
+width: 165px;
+
+}
+.drop li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+ 
+.drop li a:hover{
+background:rgba(0,0,0,.05)!important; 
+-moz-box-shadow:0 3px 10px 0 #CCC; 
+-webkit-box-shadow:0 3px 10px 0 #ccc; 
+text-shadow:0px 0px 5px #fff; 
+color: rgba(0,0,0,.95)!important;
+
+}
+.drop li a i{
+    float: left;
+    margin-right: 10px;
+}
+.drop li  ul{
+position:absolute; 
+top:27px; 
+left: auto;
+right: 0;
+background-color:#fff; 
+display:none;
+
+}  
+.drop li:hover ul, .drop li.over ul{display:block;}
+.drop li ul li{
+display:block; 
+width:165px;
+}
+
+
+/*menu2*/
+.drop1{
+    list-style: none;
+    cursor: pointer;
+    border-radius: 2%;
+    
+}
+.drop1 li{
+position:relative; 
+float:left; 
+border: 1px solid;
+border: 1px solid rgba(34,36,38,.30);
+width: 165px;
+border-radius: 2%;
+
+}
+.drop1 li a{color:#333; text-decoration:none; padding:10px 10px; display:block; }
+ 
+.drop1 li a:hover{
+background:rgba(0,0,0,.05)!important; 
+-moz-box-shadow:0 3px 10px 0 #CCC; 
+-webkit-box-shadow:0 3px 10px 0 #ccc; 
+text-shadow:0px 0px 5px #fff; 
+color: rgba(0,0,0,.95)!important;
+
+}
+.drop1 li a i{
+    float: left;
+    margin-right: 10px;
+}
+
+.drop1 li:hover ul, .drop li.over ul{display:block;}
+.drop1 li{
+display:block; 
+width:100%;
+
+}
+/*responsividade*/
+#endereco{
+    border:2px solid rgba(34,36,38,.30); 
+    border-radius: 10px; 
+    margin: 0 3%; 
+    height:320px;
+    padding: 5px;
+}
+
+.input{padding:10px ; border-radius:3px; border:1px solid rgba(34,36,38,.15); margin:0px;  }
+
+
+.b1{
+    display:inline-block;
+	padding:10px 21px;
+	text-decoration:none;
+	border-radius:5px;
+	transition:background 0.6s linear;
+        color:#2ecc40; 
+        border:2px solid #2ecc40;
+        cursor: pointer;
+        background: #fff;
+        
+}
+.b1:hover{
+    background:#2ecc40;
+    color:#fff; 
+}
+.minput{
+    margin: 0 4.8%;
+}
+
+@media screen and (max-width:1024px){
+	.container{width:100%;}
+	.container1{width:100%;}
+	.container2{width:100%;}
+	.cell{margin:0px;}
+	#content-page main #section2 article{
+	padding:50px;}
+	
+	}
+	
+@media screen and (max-width:600px){
+	.container{width:100%;}
+	.container1{width:100%;}
+	.container2{width:100%;}
+	.cell{margin:0px;}
+	#content-page main #section2 article{
+	padding:0px;}
+	}
+	
+@media screen and (max-width:480px){
+	.container{width:100%;}
+	.container1{width:100%;}
+	.container2{width:100%;}
+        .w16{width:99%}
+        .w19{width:100%;}
+        .w23{width:100%;}
+        .w20{width:100%;}
+        .w80{width:100%;}
+        .w40{width:100%;}
+        .w60{width:100%;}
+        .w25{width:100%;}
+        .w32{width:100%;}
+        .w33{width:100%;}
+        .w35{width:100%;}
+        .w50{width:100%;}
+        .w30{width:100%;}
+        .w70{width:98.5%;}
+        .ww{width: 93%;}
+        #endereco{margin: 20px 0; padding:0px; height: 570px;}
+        .rodapem{position: relative !important;
+        left: 0 !important;
+        bottom: 0 !important;
+        }
+        .minput{margin: 0;}
+}
+
+
+/*responsivo ate 412 de largura */
+
+
+
+
+
