@@ -51,6 +51,18 @@ function endereco($id) {
 
     return $result;
 }
+function carrinho($id) {
+    
+    
+    $sql = "select * from carrinho where cod_cliente = '$id'";
+       
+    $conn = conectar();
+    
+    $result = mysqli_query($conn, $sql) or die(mysqli_error($conn));
+    desconectar($conn);
+
+    return $result;
+}
 
 
 
