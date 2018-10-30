@@ -20,8 +20,8 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <title>StarClothes - loja</title>
-        <link rel="stylesheet" type="text/css" href="css/base-loja.css">
-        <link rel="stylesheet" type="text/css" href="css/tema-loja.css">
+        <link rel="stylesheet" type="text/css" href="css/base_carrinho.css">
+        <link rel="stylesheet" type="text/css" href="css/tema_carrinho.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <script type="text/javascript" src="js/modernizr-custom.js"></script> 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -38,7 +38,7 @@ and open the template in the editor.
            			</span>    
     			</a>
                     </h1>
-
+                    
                         <div id="autenticacao" class="fright w25">
                             <?php
                                 if (isset($usuario)) {
@@ -60,11 +60,36 @@ and open the template in the editor.
                 </div>
                 <div class="clearb"></div>
             </header>
-            <main style="padding: 0 0;">
+            <div style="background:#f5f5f5;">
+            <main class="container1" style="padding: 20px 0;">
+                <h5 id="sacolaa" class="tcenter">minha sacola</h5>
+                <table style="width: 100%;">
+                    <tr>
+                        <th>PRODUTO</th>
+                        <th></th>
+                        <th>PREÇO</th> 
+                        <th>QUANTIDADE</th>
+                        <th>TOTAL</th>
+                    </tr>
                 
+                    <tr style="background: #fff;">
+                        <td>
+                            <a target="_blank" href="../produtos/1.php">
+                                <img class="" src="https://mariafilo.vteximg.com.br/arquivos/ids/211083-500-650/04013166_064_1-BLUSA-ALCA-DECOTE-PREGAS.jpg?v=636693195065330000" width="auto" height="130"/>
+                            </a>
+                        </td>
+                        
+                        <td></td>
+                        <td>asdas</td>
+                        <td>asdsadsa</td>
+                        <td>50</td>
+                    </tr>
+                    
+                </table>
+
                 
             </main>
-            
+            </div>
             <footer style="">
                 <div class="tcenter" style="color:#7F7F7F; padding:10px;">
                     <nav>
