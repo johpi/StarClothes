@@ -97,8 +97,8 @@ and open the template in the editor.
                             <a style="cursor:zoom-in;" href="https://mariafilo.vteximg.com.br/arquivos/ids/212139-500-650/04013071_010_2-BLUSA-BORDADO-FLORAL-NEBLINA.jpg?v=636716760110930000" target="_blank"><img class="" src="https://mariafilo.vteximg.com.br/arquivos/ids/212139-500-650/04013071_010_2-BLUSA-BORDADO-FLORAL-NEBLINA.jpg?v=636716760110930000" width="auto" height="500"/></a>
                         </div>
                         <div class="fleft w30">
-                            <h3>R$ 249,00</h3> 
-                            <p>até 2x de R$ 124,50</p>
+                            <h3>R$ 379,00</h3> 
+                            <p>até 3x de R$ 126,33</p>
                             <p>Vendido e Enviado por StarClothes</p>
                             <br>
                             <p><b>Cor:</b>  Vermelho</p>
