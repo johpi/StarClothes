@@ -82,9 +82,10 @@ and open the template in the editor.
                 </nav>
                 <div id="section1" class="container">
                         <div class="fleft w30">
-                            <h2>Vestido Evasê Curto<br> Estampado - Off White</h2> 
+                            <h2>Vestido Curto Decote Festonê<br> Sem estampa</h2> 
                             <p>Cod: 0095-205-02</p>
-                            <p style="margin: 20px 0;">No mood floral, o Vestido Evasê Curto Estampado dá estilo e movimento aos looks de meia estação. Confeccionado em poliéster, possui modelagem justa ao corpo e detalhe em botão ... <a href="">Ver mais.</a></p>
+                            <p style="margin: 20px 0;">Vestido feminino confeccionado em tecido plano com leve textura.
+                                A modelagem forma um decote V com caimento solto. As mangas são curtas e possui forro na parte inferior.<a href="">Ver mais.</a></p>
                             <p><b>PERMANEÇA CONECTADO</b></p>
                             <div id="sociais">   
                                 <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -100,7 +101,7 @@ and open the template in the editor.
                             <p>até 2x de R$ 124,50</p>
                             <p>Vendido e Enviado por StarClothes</p>
                             <br>
-                            <p><b>Cor:</b>  Off White</p>
+                            <p><b>Cor:</b>  Preto</p>
                             <br>
                             <p>
                                 <form>
@@ -121,18 +122,19 @@ and open the template in the editor.
                     <hr>
                     <br>
                     <h2>Descrição</h2>
-                    <p>No mood floral, o Vestido Evasê Curto Estampado dá estilo e movimento aos looks de meia estação. Confeccionado em poliéster, possui modelagem justa ao corpo e detalhe em botão metalizado no colo.</p>
+                    <p>Vestido feminino confeccionado em tecido plano com leve textura.
+                       A modelagem forma um decote V com caimento solto. As mangas são curtas e possui forro na parte inferior.</p>
                     <br>
                     <div class="fleft" style="margin: 0 12%;">
-                        <b>Nome:</b> Vestido Evasê Curto Estampado<br>
+                        <b>Nome:</b> Vestido Curto Decote Festonê<br>
                         <b>Gênero:</b> Feminino<br>
                         <b>Indicado para:</b> Dia a Dia<br>
-                        <b>Ocasião:</b> Dia a Dia
+                        <b>Ocasião:</b> Trabalho e festas mais sociais
                     </div>
                     <div style="margin: 0 12%;" class="fleft ">
-                        <b>Estilo da Peça:</b> Estampada<br>
-                        <b>Modelagem:</b> Evasê<br>
-                        <b>Material:</b> Poliéster<br>
+                        <b>Estilo da Peça:</b> Decotado<br>
+                        <b>Modelagem:</b> Curto<br>
+                        <b>Material:</b> 97% Poliéster 3% Elastano<br>
                         <b>Tipo:</b> Vestido Curto
                     </div>
                     <div class="clearb"></div><br>
