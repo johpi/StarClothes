@@ -97,8 +97,8 @@ and open the template in the editor.
                             <a href="https://mariafilo.vteximg.com.br/arquivos/ids/209897-500-650/01030898_038_2-VESTIDO-RENDA-FIVELA-CROCHE.jpg?v=636683067046200000" target="_blank"><img class="" src="https://mariafilo.vteximg.com.br/arquivos/ids/209897-500-650/01030898_038_2-VESTIDO-RENDA-FIVELA-CROCHE.jpg?v=636683067046200000" width="auto" height="500"/></a>
                         </div>
                         <div class="fleft w30">
-                            <h3>R$ 249,00</h3> 
-                            <p>até 2x de R$ 124,50</p>
+                            <h3>R$ 599,00</h3> 
+                            <p>até 5x de R$ 119,90</p>
                             <p>Vendido e Enviado por StarClothes</p>
                             <br>
                             <p><b>Cor:</b>  Preto</p>
