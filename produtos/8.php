@@ -97,8 +97,8 @@ and open the template in the editor.
                             <a style="cursor:zoom-in;" href="https://mariafilo.vteximg.com.br/arquivos/ids/193634-500-650/04040798_019_2-SHORT-BOCAS.jpg?v=636548123643500000" target="_blank"><img class="" src="https://mariafilo.vteximg.com.br/arquivos/ids/193634-500-650/04040798_019_2-SHORT-BOCAS.jpg?v=636548123643500000" width="auto" height="500"/></a>
                         </div>
                         <div class="fleft w30">
-                            <h3>R$ 249,00</h3> 
-                            <p>até 2x de R$ 124,50</p>
+                            <h3>R$ 140,00</h3> 
+                            <p>até 2x de R$ 70,00</p>
                             <p>Vendido e Enviado por StarClothes</p>
                             <br>
                             <p><b>Cor:</b>  Estampado</p>
