@@ -82,7 +82,7 @@ and open the template in the editor.
                 </nav>
                 <div id="section1" class="container">
                         <div class="fleft w30">
-                            <h2>BLUSA ALÇA DECOTE PREGAS<br> Off White</h2> 
+                            <h2>Blusa Alça Decote Pregas<br> Off White</h2> 
                             <p>Cod: 0095-205-02</p>
                             <p style="margin: 20px 0;">Fresquinha, esse blusinha é a cara da estação.
                                 Ela permite compor looks cheios de charme e de descontração.
