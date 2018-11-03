@@ -53,7 +53,7 @@ $usuario = isset($_SESSION["usuario"]) ? $_SESSION["usuario"] : null;
                                     } else {
                                         echo '<ul class="drop tleft"><li><a class="tcenter">'.$usuario.'</a><ul>'
                                         .'<li style="border-bottom:0px;"><a href="dados.php"><i class="fas fa-user"></i>Meus Dados</a></li>' .'<li style="border-bottom:0px;border-top:0px;"><a href="medidas.php"><i class="fas fa-child"></i>Minhas Medidas</a></li>'
-                                        .'<li style="border-bottom:0px;border-top:0px;"><a href="pedido.php"><i class="fas fa-truck" style="margin-right:3px;"></i>Pedidos</a></li>' . '<li style="border-top:0px;"><a href="logout.php"><i class="fas fa-sign-out-alt"></i>Sair</a></li></ul></li>';
+                                        .'<li style="border-bottom:0px;border-top:0px;"><a href="endereco.php"><i class="fas fa-truck" style="margin-right:3px;"></i>Endereço</a></li>' . '<li style="border-top:0px;"><a href="logout.php"><i class="fas fa-sign-out-alt"></i>Sair</a></li></ul></li>';
                                     }
                                 } else {
                                     echo '<a id="b1" class="" href="login.html">Entrar</a>';

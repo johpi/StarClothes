@@ -48,7 +48,7 @@ $usuario = isset($_SESSION["usuario"]) ? $_SESSION["usuario"] : null;
                                     } else {
                                         echo '<ul class="drop tleft"><li><a class="tcenter">'.$usuario.'</a><ul>'
                                         .'<li style="border-bottom:0px;"><a href="dados.php"><i class="fas fa-user"></i>Meus Dados</a></li>' .'<li style="border-bottom:0px;border-top:0px;"><a href="medidas.php"><i class="fas fa-child"></i>Minhas Medidas</a></li>'
-                                        .'<li style="border-bottom:0px;border-top:0px;"><a href="pedido.php"><i class="fas fa-truck" style="margin-right:3px;"></i>Pedidos</a></li>' . '<li style="border-top:0px;"><a href="logout.php"><i class="fas fa-sign-out-alt"></i>Sair</a></li></ul></li>';
+                                        .'<li style="border-bottom:0px;border-top:0px;"><a href="endereco.php"><i class="fas fa-truck" style="margin-right:3px;"></i>Endereço</a></li>' . '<li style="border-top:0px;"><a href="logout.php"><i class="fas fa-sign-out-alt"></i>Sair</a></li></ul></li>';
                                     }
                                 } else {
                                     echo '<a id="b1" class="" href="login.html">Entrar</a>';
@@ -103,7 +103,7 @@ $usuario = isset($_SESSION["usuario"]) ? $_SESSION["usuario"] : null;
                                 Endereço: R. Amador Bueno, 389/491 - Santo Amaro, São Paulo - SP
                             </p><br>
                             <h3 class="tcenter">Mapa</h3>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.638224186395!2d-46.71383048502041!3d-23.653123784637355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce51aaf11432ad%3A0x4578b756c7a1a2e7!2sUniversidade+Nove+de+Julho%2C+Unidade+Santo+Amaro!5e0!3m2!1spt-BR!2sbr!4v1491669924959" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.638224186395!2d-46.71383048502041!3d-23.653123784637355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce51aaf11432ad%3A0x4578b756c7a1a2e7!2sUniversidade+Nove+de+Julho%2C+Unidade+Santo+Amaro!5e0!3m2!1spt-BR!2sbr!4v1491669924959" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen></iframe>
                         </div>           
                      </div>
                  </div>

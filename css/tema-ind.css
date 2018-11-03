@@ -138,13 +138,8 @@ h1#logotipo a span{
 @media screen and (max-width:480px){
 	.inverse-mobile-right{ float:right;}
 	.inverse-mobile-left{ float:left;}
-	#content-page main section#section3 .row article p{
-	margin-left:0px;}
-	#content-page header{
-	background:url(../images/pc1.jpg) center bottom no-repeat;
-	background-size:100% 100%;}
-	#content-page main #section2 article{
-	padding:35px;}
+
+
 	.cell{margin-left:0px;}
 	.cellm{margin-top:0px;}
 	.mcell{margin-top:20px;}
