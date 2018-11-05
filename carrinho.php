@@ -60,7 +60,7 @@ and open the template in the editor.
                 </div>
                 <div class="clearb"></div>
             </header>
-            <div style="background:#f5f5f5;">
+            <div style="background:#f5f5f5;color: #878787;">
             <main class="container1" style="padding: 20px 0;">
                 <h5 id="sacolaa" class="tcenter">minha sacola</h5>
                 <table style="width: 100%;">
@@ -75,7 +75,7 @@ and open the template in the editor.
                     <tr style="background: #fff;">
                         <td>
                             <a target="_blank" href="../produtos/1.php">
-                                <img class="" src="https://mariafilo.vteximg.com.br/arquivos/ids/211083-500-650/04013166_064_1-BLUSA-ALCA-DECOTE-PREGAS.jpg?v=636693195065330000" width="auto" height="130"/>
+                                <img class="" src="https://mariafilo.vteximg.com.br/arquivos/ids/211083-500-650/04013166_064_1-BLUSA-ALCA-DECOTE-PREGAS.jpg?v=636693195065330000" width="auto" height="140"/>
                             </a>
                         </td>
                         
@@ -86,8 +86,22 @@ and open the template in the editor.
                     </tr>
                     
                 </table>
-
-                
+                <br><br>
+                <div class="w35 fright" style="font-size: 15px;font-weight: bold;">
+                    <p class="" ><span class="fleft">SUBTOTAL</span><span class="fright">R$ 000,00</span></p>
+                    <br><br><hr><br>
+                    <p class=""><span class="fleft">ENTREGA</span><span class="fright">R$ 000,00</span></p>
+                    <br><br><hr><br>
+                    <p style="color: #dfae83; font-size: 18px;"><span class="fleft">TOTAL</span><span class="fright">R$ 000,00</span></p>
+                    <br><br><br>
+                    <form>
+                        <input class="btn btncell" type="button" value="FINALIZAR COMPRA" name="ff" />
+                    </form>
+                </div>
+                <div class="fleft">
+                    <a class="btn tcenter" style="background: #e7e7e7;color: #808080;padding: 12px; margin: 100px 0;" href="loja.php"><b>ESCOLHER MAIS PRODUTOS</b></a>
+                </div>
+                <div class="clearb"></div>
             </main>
             </div>
             <footer style="">
